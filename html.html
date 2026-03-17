@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>user questionnaire</title>
+
+        <link rel="stylesheet" href="css.css">
+        <link rel="icon" type="image/png" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/embed-icon-svg-download-png-7721840.png">
+
+        <meta charset="UTF-8">
+        <meta property="og:title" content="user questionnaire">
+        <meta property="og:description" content="click here">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://img.freepik.com/premium-vector/download-flat-illustration-depicting-guest-interview_67813-21796.jpg?semt=ais_hybrid&w=740&q=80">
+    </head>
+
+    <body>
+        <header>
+
+            <h1>questionnaire</h1>
+            <nav>
+                <p><a href="https://www.pixilart.com/yinonbeta/gallery">check out my old profile in pixel art</a></p><hr>
+            </nav>
+
+        </header>
+
+        <main>
+            <section>
+            
+                <form method="POST" action="">
+                    <fieldset>
+                        <legend>Personal Information</legend>
+
+                        <label for="Full name">Full name (required):</label>
+                        <input 
+                        required
+                        name="name" 
+                        id="full-name" 
+                        type="text" 
+                        placeholder="for e.g yinon ben shaul" 
+                        size="20"
+                        minlength="3"
+                        maxlength="70"></input>
+
+                        <label for="email">Email address (required):</label>
+                        <input 
+                        required
+                        id="email" 
+                        name="email" 
+                        type="email"
+                        placeholder="@gmail.com"
+                        minlength="14"
+                        maxlength="100"></input>
+
+                       <label for="age">Age:</label>
+                       <input 
+                       required
+                       type="number" 
+                       id="age"
+                       name="age"
+                       min="14"
+                       max="125"></input>
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <legend>You think you can withstand high pressures</legend>
+                        <input 
+                        type="radio" 
+                        name="hotel-stay" 
+                        id="option-yes" 
+                        value="yes"
+                        ></input>
+                        <label for="option-yes">yes</label>
+
+                        <input 
+                        type="radio" 
+                        name="hotel-stay" 
+                        id="option-no" 
+                        value="no"
+                        ></input>
+                        <label for="option-no">no</label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Why do you want to work with use:</legend>
+                        <label for="price"></label>
+                        <input 
+                        type="checkbox" 
+                        name="choice" 
+                        id="price">Price</input>
+
+                        <label for="help"></label>
+                        <input 
+                        type="checkbox" 
+                        id="help" 
+                        name="choice">I thinking i can help</input>
+
+                        <label for="love"></label>
+                        <input 
+                        type="checkbox" 
+                        id="love" 
+                        name="choice">I love what I am doing</input>
+
+                        <label for="location"></label>
+                        <input 
+                        type="checkbox" 
+                        id="location" 
+                        name="choice">location</input>
+
+                        <label for="other"></label>
+                        <input 
+                        type="checkbox" 
+                        id="other" 
+                        name="choice">other</input>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>service</legend>
+                        <label for="service">How was the service:</label>
+                        <select name="service_rating">
+                            <option value="poor">Poor</option>
+                            <option value="satisfactory">Satisfactory</option>
+                            <option value="good">Good</option>
+                            <option value="very-good">Very Good</option>
+                            <option selected value="excellent">excellent</option>
+                        </select>
+
+                        <label for="sacrifice">how much to you want this job</label>
+                        <select>
+
+                            <option value="1/5">1/5</option>
+                            <option value="2/5">2/5</option>
+                            <option value="3/5">3/5</option>
+                            <option value="4/5">4/5</option>
+                            <option value="5/5">5/5</option>
+
+                        </select>
+                        
+                    </fieldset>
+
+                    <label for="comments">other comments</label>
+                    <textarea 
+                    id="comments"
+                    name="comments"
+                    rows="2"
+                    cols="90"
+                    ></textarea>
+                    <button id="submit" type="submit">submit</button>
+                </form>
+
+            </section>
+        </main>
+        <footer>
+            <address>
+                <h2>support</h2><hr>
+                <p>Phone:<a href="tel:5555555555">555-555-5555</a></p>
+                <p>email:<a href="mailto:fuck_you_i_am_not_that_dumb@gmail.com">email</a></p>
+                <time datetime="2026-03-18T00:07"></time>
+            </address>
+            &copy; yinon ben shaul All rights reserved
+        </footer>
+    </body>
+</html>

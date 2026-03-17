@@ -1,0 +1,22 @@
+body{
+    background-color: #101418;
+    color: #EAECF0;
+}
+header{
+    text-align: center;
+}
+a:link, a:visited, a:hover{
+    color: skyblue;
+}
+a:active{
+    color: blueviolet;
+}
+input{
+    margin-bottom: 10px;
+}
+footer{
+    text-align: center;
+}
+#submit{
+    margin-bottom: 20px;
+}
